@@ -10,7 +10,7 @@ $(function () {
     });
 
     function f() {
-        var i = "/ny2012.swf";
+        var i = "https://github.com/lungumihai03/new_year2/blob/main/ny2012.swf";
         i = i + "?nc=" + (new Date().getTime());
         swfobject.embedSWF(i, "z-audio__player", "1", "1", "9.0.0", null, {}, {
             allowScriptAccess: "always",
